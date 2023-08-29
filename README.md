@@ -10,3 +10,5 @@ ping each other, and PC1 can ping the Gig 0/0/0 interfaces on R3 and R4.
 All routers are statically configured with the first address on the network as shown.
 I've also added configurations to all routers so all PCs can obtain correct IPv6 address settings
 and can all ping the Gig 0/0/1 interface on every other router.
+
+Note: You will need to run this on Cisco Packet tracer software.

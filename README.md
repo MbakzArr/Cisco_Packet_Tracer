@@ -41,6 +41,3 @@ This guide provides step-by-step instructions for configuring IPv6 router settin
 ## Note
 - This guide provides a general outline. Specific commands and configurations may vary based on the Cisco IOS version and software.
 - The provided network prefix (2001:12:34::/64) is a placeholder. You can replace it with your actual IPv6 network prefix.
-
-## Conclusion
-This read me file outlines the basic steps for configuring IPv6 routers and DHCPv6 servers for a network using Cisco Packet Tracer. It is recommended to understand the underlying concepts and adapt the instructions to your specific environment. If you encounter any issues or need further assistance, refer to Cisco's official documentation or seek support from relevant forums or communities.

@@ -1,11 +1,11 @@
 # IPv6 Router and DHCP Configuration - Read Me
 
 ## Introduction
-This guide provides step-by-step instructions for configuring IPv6 router settings and DHCPv6 servers for a network using Cisco Packet Tracer. The setup involves multiple routers (R1, R2, R3, R4) and PCs (PC1, PC2, PC3, etc.), where each router acts as a DHCPv6 server for a specific PC network.
+This guide gives you a clear, step-by-step way to set up IPv6 router settings and DHCPv6 servers in a network using Cisco Packet Tracer. You'll work with several routers (named R1, R2, R3, R4) and PCs (like PC1, PC2, PC3, and so on). Each router will serve as a DHCPv6 server for a particular PC network.
 
 ## Prerequisites
-- Cisco Packet Tracer software installed.
-- Basic understanding of IPv6 addressing and routing concepts.
+- You should have Cisco Packet Tracer software installed on your computer.
+- You should also have a basic grasp of IPv6 addressing and routing concepts.
 
 ## Topology Overview
 - R1, R2, R3, and R4 routers are connected via their Gig 0/0/0 interfaces with the network prefix 2001:12:34::/64.
@@ -31,9 +31,9 @@ This guide provides step-by-step instructions for configuring IPv6 router settin
    - PC1 should get settings from R1, PC2 from R2, and so on.
 
 6. **Testing Connectivity**
-   - Test connectivity between PCs within the same network.
-   - Test connectivity between PCs in different networks.
-   - Ensure PC1 can ping the Gig 0/0/0 interfaces on R3 and R4.
+   - Check if PCs in the same network can communicate with each other.
+   - Verify if PCs in different networks can establish connectivity.
+   - Make sure that PC1 can successfully ping the Gig 0/0/0 interfaces on both R3 and R4.
 
 7. **Additional Configuration**
    - Configure additional settings on routers to allow all PCs to obtain correct IPv6 address settings and ping the Gig 0/0/1 interface on every other router.

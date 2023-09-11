@@ -1,7 +1,7 @@
 # IPv6 Router and DHCP Configuration - Read Me
 
 ## Introduction
-This guide gives you a clear, step-by-step way to set up IPv6 router settings and DHCPv6 servers in a network using Cisco Packet Tracer. You'll work with several routers (named R1, R2, R3, R4) and PCs (like PC1, PC2, PC3, and so on). Each router will serve as a DHCPv6 server for a particular PC network.
+This network setup involves setting up IPv6 router settings and DHCPv6 servers in a network using Cisco Packet Tracer. Working with several routers (named R1, R2, R3, R4) and PCs (like PC1, PC2, PC3, and so on). Each router will serve as a DHCPv6 server for a particular PC network.
 
 ## Prerequisites
 - You should have Cisco Packet Tracer software installed on your computer.
